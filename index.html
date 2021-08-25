@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Index</title>
+	</head>
+	<body>
+		<p id="show-href">Href Location :</p>
+		<button onclick="lihat_href()">Tunjukkan href</button>
+      <a href="tugas45.html">Ke halaman tugas45.html</a>
+		<script>
+			function lihat_href() {
+				let a = location.href;
+				document.getElementById("show-href").append(a);
+			}
+		</script>
+	</body>
+</html>
